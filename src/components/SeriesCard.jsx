@@ -14,7 +14,7 @@ return (
     <p>Cast: {props.data.cast}</p>
     <p>Genre: {props.data.genre}</p>
     <a href={props.data.watch_url} target="_blank" rel="noopener noreferrer">
-      <button style={{backgroundColor:`${props.data.rating >=8.5 ?"#27b083":"#c2c240"}`,padding:"8px 10px",border:'none',color:'white'}}>Watch Now</button>
+      <button style={{backgroundColor:`${props.data.rating >=8.5 ?"#27b083":"#c2c240"}`,padding:"8px 10px",border:'none',color:'white'}}>Watch This Now</button>
     </a>
     </div>
   </li>
